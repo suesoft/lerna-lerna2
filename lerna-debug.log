@@ -1,0 +1,8 @@
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: repository 'http://localhost:4873/' not found
+15 error     at makeError (E:\mine\github\lerna-lerna2\node_modules\execa\lib\error.js:59:11)
+15 error     at Function.module.exports.sync (E:\mine\github\lerna-lerna2\node_modules\execa\index.js:186:17)
+15 error     at Object.execSync (E:\mine\github\lerna-lerna2\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (E:\mine\github\lerna-lerna2\node_modules\lerna\dist\cli.js:5908:22)
+15 error     at isBehindUpstream (E:\mine\github\lerna-lerna2\node_modules\lerna\dist\cli.js:5898:7)
+15 error     at VersionCommand.initialize (E:\mine\github\lerna-lerna2\node_modules\lerna\dist\cli.js:6233:57)

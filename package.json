@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lerna": "^6.6.1",
+    "prettier": "^2.8.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js packages/**/*.js --no-error-on-unmatched-pattern --fix"
+  }
+}
